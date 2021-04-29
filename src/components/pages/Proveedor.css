@@ -1,0 +1,147 @@
+.back-div{
+    width: 85%;
+    margin-right:0%;
+    margin-left: 15%;
+    height: 150px;
+    margin-top: 20px;
+    overflow: hidden;
+    border-radius: 10px 0px 0px 10px;
+    background: rgba(22,157,54,1);
+    background: -moz-linear-gradient(left, rgba(22,157,54,1) 28%, rgba(15,138,66,1) 47%, rgba(9,124,75,1) 62%, rgba(1,103,88,1) 83%, rgba(1,103,88,1) 91%);
+    background: -webkit-gradient(left top, right top, color-stop(28%, rgba(22,157,54,1)), color-stop(47%, rgba(15,138,66,1)), color-stop(62%, rgba(9,124,75,1)), color-stop(83%, rgba(1,103,88,1)), color-stop(91%, rgba(1,103,88,1)));
+    background: -webkit-linear-gradient(left, rgba(22,157,54,1) 28%, rgba(15,138,66,1) 47%, rgba(9,124,75,1) 62%, rgba(1,103,88,1) 83%, rgba(1,103,88,1) 91%);
+    background: -o-linear-gradient(left, rgba(22,157,54,1) 28%, rgba(15,138,66,1) 47%, rgba(9,124,75,1) 62%, rgba(1,103,88,1) 83%, rgba(1,103,88,1) 91%);
+    background: -ms-linear-gradient(left, rgba(22,157,54,1) 28%, rgba(15,138,66,1) 47%, rgba(9,124,75,1) 62%, rgba(1,103,88,1) 83%, rgba(1,103,88,1) 91%);
+    background: linear-gradient(to right, rgba(22,157,54,1) 28%, rgba(15,138,66,1) 47%, rgba(9,124,75,1) 62%, rgba(1,103,88,1) 83%, rgba(1,103,88,1) 91%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#169d36', endColorstr='#016758', GradientType=1 );
+    -webkit-box-shadow: -14px 1px 77px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: -14px 1px 77px -5px rgba(0,0,0,0.75);
+    box-shadow: -14px 1px 77px -5px rgba(0,0,0,0.75);
+
+}
+
+.providers-table{
+    margin-right:2%;
+    margin-left: 17%;
+    margin-top: -70px;
+    position: relative;
+    z-index: 20; 
+}
+
+.providers-form{
+    margin-right:2%;
+    margin-left: 17%;
+    margin-top: -70px;
+    position: relative;
+    z-index: 20; 
+}
+
+.form-providers{
+    padding: 30px;
+}
+
+.row{
+    margin-bottom: -20px;
+    margin-top: -20px;
+}
+
+.btn-add{
+    position: relative;
+    z-index:25;
+    margin-left: 1250px;
+    margin-top: -20px;
+}
+
+.icon-providers{
+    margin-top: 35px;
+    margin-left: 3%;
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.span-providers{
+    margin-left: 10px;
+}
+
+.active-input{
+    margin-left: 25px;
+}
+
+.btn-save{
+    margin-left: 900px;
+    justify-content: right;
+}
+
+.padding-select{
+    padding: 20px;
+}
+
+.btn-generar{
+    margin-top: 30px;
+    margin-left: 370px;
+    justify-content: right;
+}
+
+.tabs .tab a {
+    color: rgba(38, 166, 154, 0.7);
+    /*Custom Text Color*/
+  }
+  
+  .tabs .tab a:hover {
+    color:#26a69a;
+    /*Custom Color On Hover*/
+  }
+  
+  .tabs .tab a:focus.active {
+    color:#26a69a;
+    /*Custom Text Color While Active*/
+    background-color: rgba(38, 166, 154, 0.2);
+    /*Custom Background Color While Active*/
+  }
+  
+  .tabs .indicator {
+    background-color:#26a69a;
+    /*Custom Color Of Indicator*/
+  }
+
+  td ,th{
+    padding: 2px ;
+}
+
+#Reporte-ultimos-evaluadores{
+    padding: 30px;
+}
+
+.porcentaje{
+    width: 200px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.container-percentage{
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+}
+
+.percentage{
+    width: 150px;
+    height: 150px;
+
+}
+
+.circularbar{
+    width: 150px;
+    height: 150px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.text-circle-bar{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 60px;
+    font-size: 14px;
+}

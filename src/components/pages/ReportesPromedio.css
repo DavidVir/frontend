@@ -1,0 +1,35 @@
+.container-emoticon{
+    background: rgba(1,103,88,1) 91%;
+    height: 220px;
+}
+
+.container-evaluator{
+    background: rgba(22,157,54,1);
+    height: 220px;
+}
+
+.emoticon{
+    height: 150px;
+    margin-top: 20px;
+}
+
+.promedio-acumulado{
+    font-size: 130px;
+    margin-left: 10px;
+    margin-top: -10px;
+    color: white;
+}
+
+.promedio-total{
+    font-size: 14px;
+    color: white;
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+.numero-evalaciones{
+    font-size: 100px;
+    margin-left: 5px;
+    margin-top: 10px;
+    color: white;
+}

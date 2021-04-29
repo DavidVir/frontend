@@ -1,0 +1,131 @@
+.Nav{
+    background-color: #15171c;
+    height: 45px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 20;
+}
+
+.principal-icon{
+    height: 20px;
+}
+
+.logo-img{
+    margin-left: -25px;
+    margin-right: 20px;
+    height: 40px;
+}
+
+.ln-menu{
+    margin-left: 3rem;
+    font-size:  3rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}
+
+.SidebarNav{
+    background-color: #2a323a;
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    position:fixed;
+    justify-content: center;
+    top: 0;
+    z-index: 10;
+}
+
+.SidebarVisible{
+    background-color: #2a323a;
+    width: 214px;
+    height: 90vh;
+    display: flex;
+    position:fixed;
+    justify-content: center;
+    top: 0;
+    z-index: 1;
+    left: 0;
+    transition: 350ms;
+    margin-top: 45.4px;
+}
+
+.img-closed{
+    height: 35px;
+    color: gray;
+    margin-left: -45px;
+}
+
+.container-menu{
+    margin-top: 10px;
+}
+
+.SidebarHidden{
+    background-color: #2a323a;
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    position:fixed;
+    justify-content: center;
+    top: 0;
+    z-index: 1;
+    left: -100%;
+    transition: 350ms;
+}
+
+.sidebarWrap{
+    margin-top:2px;
+    width: 100%;
+    
+}
+
+.SidebarLink{
+    display: flex;
+    color: #e1e9fc;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+    list-style: none;
+    height: 40px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.SidebarLink:hover {
+    background: #169d36;
+    border-left: 4px solid #ffffff;
+    color: #ffffff;
+    cursor: pointer;
+    -webkit-box-shadow: 6px 5px 14px -2px rgba(0,0,0,0.65);
+    -moz-box-shadow: 6px 5px 14px -2px rgba(0,0,0,0.65);
+    box-shadow: 6px 5px 14px -2px rgba(0,0,0,0.65);
+}
+
+.SidebarLabel{
+    margin-left: 16px;
+}
+
+.DropdownLink{
+    background: #2a323a;
+    height: 40px;
+    padding-left: 3rem;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #f5f5f5;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.DropdownLink:hover{
+    background: #169d36;
+    cursor: pointer;
+    color: #ffffff;
+    -webkit-box-shadow: 6px 5px 14px -2px rgba(0,0,0,0.65);
+    -moz-box-shadow: 6px 5px 14px -2px rgba(0,0,0,0.65);
+    box-shadow: 6px 5px 14px -2px rgba(0,0,0,0.65);
+    
+}
